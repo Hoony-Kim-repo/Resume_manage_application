@@ -1,3 +1,4 @@
+import Tab from "./components/InfoTabs/InfoTabs";
 import Introduce from "./components/Introduce/Introduce";
 import MyResume from "./Page/MyResume";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <MyResume />
       <Introduce />
+      <Tab />
     </>
   );
 }
