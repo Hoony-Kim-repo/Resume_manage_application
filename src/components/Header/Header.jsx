@@ -1,6 +1,6 @@
 import { Avatar } from "@chakra-ui/react";
-import profileImg from "../assets/my-profile-picture.jpg";
-import headerBackground from "../assets/header_bg.webp";
+import profileImg from "../../assets/my-profile-picture.jpg";
+import headerBackground from "../../assets/header_bg.webp";
 import styles from "./Header.module.css";
 
 const Header = ({ name, job }) => {
