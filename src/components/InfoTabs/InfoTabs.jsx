@@ -1,32 +1,34 @@
-import { Tabs } from "@chakra-ui/react";
+import { Box, Tabs } from "@chakra-ui/react";
 import TabContents from "./TabContents";
 
 const INITIAL_TAB_NAME = ["Projects", "Experiences", "Skills", "Education"];
+
 const InfoTabs = () => {
   return (
     <Tabs.Root
       variant="outline"
       defaultValue={INITIAL_TAB_NAME[0].toLowerCase()}
       orientation="vertical"
-      colorPalette="red"
     >
-      <Tabs.List>
+      <Tabs.List minWidth="10rem">
         {INITIAL_TAB_NAME.map((tabName) => (
           <Tabs.Trigger
             key={tabName}
             value={tabName.toLowerCase()}
             _selected={{ color: "orange.300", fontWeight: "bold" }}
+            fontSize="1xl"
             color="blue.300"
-            minW="10rem"
           >
             {tabName}
           </Tabs.Trigger>
         ))}
       </Tabs.List>
 
-      {INITIAL_TAB_NAME.map((tab) => (
-        <TabContents key={tab} value={tab.toLowerCase()}></TabContents>
-      ))}
+      <Box flex="1" display="flex" justifyContent="center">
+        {INITIAL_TAB_NAME.map((tab) => (
+          <TabContents key={tab} value={tab.toLowerCase()}></TabContents>
+        ))}
+      </Box>
     </Tabs.Root>
   );
 };

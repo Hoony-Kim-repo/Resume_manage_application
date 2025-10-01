@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Resume Manage Application",
+    "description": "Initial custom resume web page.",
+    "img": "resume.jpg",
+    "imgAlt": "Resume Manage Application",
+    "gitHubLink": "https://github.com/Hoony-Kim-repo/Resume_manage_application"
+  },
+  {
+    "id": 2,
+    "title": "Chat Bot",
+    "description": "This project is to build custom chat bot with OpenAI API. Built by python.",
+    "img": "chatbot.avif",
+    "imgAlt": "Custom ChatBot Application",
+    "gitHubLink": "https://github.com/Hoony-Kim-repo/ChatBot"
+  }
+]

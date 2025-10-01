@@ -1,9 +1,22 @@
 /* Google Fonts - Inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
+#app {
+  height: 100%;
+}
+html,
 body {
-  background-color: rgb(32, 42, 68);
-  color: rgb(230, 230, 230);
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
