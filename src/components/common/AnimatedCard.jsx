@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 import styles from "./AnimatedCard.module.css";
 
-const MotionBox = motion(Box);
+const MotionBox = motion.create(Box);
 
 const AnimatedCard = ({ delay = 0, children }) => {
   const { ref, inView } = useInView({

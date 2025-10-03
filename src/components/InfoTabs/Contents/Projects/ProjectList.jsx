@@ -4,8 +4,6 @@ import resumeImage from "../../../../assets/resume.jpg";
 import ProjectCards from "./ProjectCards";
 import projects from "./projects.json";
 
-import styles from "./ProjectList.module.css";
-
 const imageMap = {
   "resume.jpg": resumeImage,
   "chatbot.avif": chatbotImage,
@@ -13,7 +11,14 @@ const imageMap = {
 
 export const getProjectSlides = () => {
   return projects.map((project) => (
-    <SwiperSlide key={project.id} className={styles.swiperSlide}>
+    <SwiperSlide
+      key={project.id}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <ProjectCards
         title={project.title}
         description={project.description}

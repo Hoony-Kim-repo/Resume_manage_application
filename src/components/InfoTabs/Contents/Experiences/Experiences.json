@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "jobTitle": "Software Engineer",
+    "companyName": "KPMG LLP",
+    "companyImg": "KPMG-logo.png",
+    "city": "Toronto",
+    "state": "Ontario",
+    "startYear": "2022",
+    "startMonth": "June",
+    "endYear": "2025",
+    "endMonth": "July",
+    "isCurrentlyWorking": "False",
+    "description": [
+      "Managed per-client data intake and organization for an internal AI assistant, ensuring correct mapping and reliable, high-quality responses.",
+      "Led prompt engineering and hands-on QA to diagnose issues, tune prompts, and deliver polished outputs that met client expectations.",
+      "Delivered end‑to‑end features in Python and JavaScript—from requirements clarification and design to implementation, testing, deployment, and monitoring—ensuring predictable, high‑quality releases.",
+      "Developed React‑based UIs with reusable components and robust state management, improving consistency and development velocity.",
+      "Implemented client‑specific solutions using Java and C#, integrating legacy services, external APIs, and internal platforms with stable interfaces.",
+      "Improved performance and reliability via profiling, refactoring, and observability, reducing operational toil and mean time to recovery.",
+      "Elevated code quality through automated tests, code reviews, and continuous refactoring; documented architecture, ADRs, and runbooks to scale team knowledge.",
+      "Collaborated closely with product, design, and QA, communicating trade‑offs and aligning scope, timelines, and success metrics."
+    ]
+  },
+  {
+    "id": "2",
+    "jobTitle": "QA & Software Engineer Internship",
+    "companyName": "Alpha HealthCare",
+    "companyImg": "alphaLabs-logo.jfif",
+    "city": "Toronto",
+    "state": "Ontario",
+    "startYear": "2020",
+    "startMonth": "January",
+    "endYear": "2020",
+    "endMonth": "April",
+    "isCurrentlyWorking": "False",
+    "description": [
+      "Designed and maintained JavaScript automation for key UI workflows and high-risk scenarios, focusing on stability, readability, and reuse.",
+      "Structured test cases into regression suites and smoke checks to accelerate validation cycles and reduce release risk.",
+      "Collaborated with developers to improve testability (selectors, data setup) and mitigate flaky cases through sensible waits and robust assertions.",
+      "Created and maintained documentation (test plans, cases, runbooks) to support consistent execution and onboarding."
+    ]
+  },
+  {
+    "id": "3",
+    "jobTitle": "Border Security Guard (GP/GOP Duty) & Field Wireman",
+    "companyName": "Republic of Korea Army",
+    "companyImg": "RoKA-logo.jpg",
+    "city": "Hwa-Cheon",
+    "state": "Kangwon-do",
+    "startYear": "2014",
+    "startMonth": "April",
+    "endYear": "2016",
+    "endMonth": "January",
+    "isCurrentlyWorking": "False",
+    "description": [
+      "Performed frontline border security duties at GP/GOP posts along the DMZ while simultaneously serving as a Field Communications Specialist, responsible for installing, maintaining, and repairing field telecommunication lines to ensure operational readiness and secure command-and-control",
+      "Served on the Korean Demilitarized Zone (DMZ) as a frontline guard, ensuring national security and safety under high-pressure conditions.",
+      "Operated as a Field Wireman, responsible for establishing, maintaining, and repairing critical communication lines within the unit to support seamless operations.",
+      "Demonstrated resilience and adaptability by performing duties in harsh and demanding environments while maintaining focus and commitment.",
+      "Fostered strong teamwork and collaboration with peers and superiors, contributing to a disciplined and cohesive unit.",
+      "Volunteered to extend service during a national emergency, prioritizing duty and the welfare of fellow soldiers, and received a Regimental Commander’s Commendation for dedication and leadership."
+    ]
+  }
+]
