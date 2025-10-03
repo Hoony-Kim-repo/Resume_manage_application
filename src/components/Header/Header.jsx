@@ -31,8 +31,10 @@ const Header = ({ name, job }) => {
               <Avatar.Image src={profileImg} />
             </Avatar.Root>
             <div className={styles.text}>
-              <h1>{name}</h1>
-              <h3>{job}</h3>
+              <Text textStyle="7xl">{name}</Text>
+              <Text fontWeight="light" textStyle="2xl">
+                {job}
+              </Text>
             </div>
           </div>
 
