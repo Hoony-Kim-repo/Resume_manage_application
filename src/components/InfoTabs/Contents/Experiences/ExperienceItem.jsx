@@ -1,4 +1,5 @@
-import { Image, ScrollArea, Text } from "@chakra-ui/react";
+import { Image, List, ScrollArea, Text } from "@chakra-ui/react";
+import { LuArrowRight } from "react-icons/lu";
 import styles from "./ExperienceItem.module.css";
 
 const ExperienceItem = ({ data }) => {
@@ -6,9 +7,6 @@ const ExperienceItem = ({ data }) => {
     `../../../../assets/company-logo/${data.companyImg}`,
     import.meta.url
   ).href;
-  const mergedDescription = data.description
-    .map((desc) => `‣ ${desc}`)
-    .join("\n");
 
   return (
     <section className={styles.container}>
@@ -53,9 +51,16 @@ const ExperienceItem = ({ data }) => {
               }}
             >
               <ScrollArea.Content>
-                <Text whiteSpace="pre-wrap" lineHeight="tall">
-                  {mergedDescription}
-                </Text>
+                <List.Root gap="1" variant="plain">
+                  {data.description.map((desc, index) => (
+                    <List.Item key={index} _hover={{ bg: "pink.100" }}>
+                      <List.Indicator asChild>
+                        <LuArrowRight />
+                      </List.Indicator>
+                      <Text>{desc}</Text>
+                    </List.Item>
+                  ))}
+                </List.Root>
               </ScrollArea.Content>
             </ScrollArea.Viewport>
             <ScrollArea.Scrollbar>
