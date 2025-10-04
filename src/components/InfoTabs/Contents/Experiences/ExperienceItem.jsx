@@ -28,7 +28,10 @@ const ExperienceItem = ({ data }) => {
           </Text>
 
           <Text>
-            {data.startMonth} {data.startYear} ~ {data.endMonth} {data.endYear}
+            {data.startMonth} {data.startYear} ~{" "}
+            {data.isCurrentlyWorking
+              ? `${data.endMonth} ${data.endYear}`
+              : "Present"}
           </Text>
         </section>
 
