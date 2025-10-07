@@ -1,6 +1,6 @@
 import { SwiperSlide } from "swiper/react";
-import chatbotImage from "../../../../assets/chatbot.avif";
-import resumeImage from "../../../../assets/resume.jpg";
+import chatbotImage from "../../../../assets/projects-logo/chatbot.avif";
+import resumeImage from "../../../../assets/projects-logo/resume.jpg";
 import ProjectCards from "./ProjectCards";
 import projects from "./projects.json";
 
