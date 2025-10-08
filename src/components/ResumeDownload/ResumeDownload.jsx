@@ -11,7 +11,10 @@ const ResumeDownload = () => {
       alignItems={"center"}
       gap={16}
     >
-      <a href={"/Resume.docx"} download={"Gihoon_Kim_Resume.docx"}>
+      <a
+        href={`${import.meta.env.BASE_URL}/Resume.docx`}
+        download={"Gihoon_Kim_Resume.docx"}
+      >
         <Button
           colorPalette={"teal"}
           color="white"
@@ -32,7 +35,10 @@ const ResumeDownload = () => {
         </Button>
       </a>
 
-      <a href={"/Resume.pdf"} download={"Gihoon_Kim_Resume.pdf"}>
+      <a
+        href={`${import.meta.env.BASE_URL}Resume.pdf`}
+        download={"Gihoon_Kim_Resume.pdf"}
+      >
         <Button
           colorPalette={"teal"}
           color="white"
