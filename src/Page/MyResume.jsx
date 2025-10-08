@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import InfoTabs from "../components/InfoTabs/InfoTabs";
 import Introduce from "../components/Introduce/Introduce";
@@ -10,6 +11,7 @@ const MyResume = () => {
       <Introduce />
       <InfoTabs />
       <ResumeDownload />
+      <Footer />
     </>
   );
 };

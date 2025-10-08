@@ -15,11 +15,7 @@ const TabContents = ({ value }) => {
         <CustomSwiper>{getExperienceSlides()}</CustomSwiper>
       )}
       {value === "skills" && <Skills />}
-<<<<<<< HEAD
       {value === "education" && <Education />}
-=======
-      {value === "education" && <h1>education</h1>}
->>>>>>> 6d6cdcbd36210350df38897c8262ae5ded01be86
     </Tabs.Content>
   );
 };
