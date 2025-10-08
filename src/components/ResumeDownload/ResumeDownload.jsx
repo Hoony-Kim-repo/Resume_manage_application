@@ -12,7 +12,7 @@ const ResumeDownload = () => {
       gap={16}
     >
       <a
-        href={`${import.meta.env.BASE_URL}/Resume.docx`}
+        href={`${import.meta.env.BASE_URL}Resume.docx`}
         download={"Gihoon_Kim_Resume.docx"}
       >
         <Button
