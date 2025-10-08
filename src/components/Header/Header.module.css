@@ -50,4 +50,5 @@
   flex-direction: column;
   margin-top: 30px;
   z-index: 1;
+  gap: 20px;
 }

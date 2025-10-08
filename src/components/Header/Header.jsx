@@ -1,5 +1,6 @@
 import { Avatar, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import { LuCircleDot } from "react-icons/lu";
 import headerBackground from "../../assets/header_bg.webp";
 import profileImg from "../../assets/my-profile-picture.jpg";
 import styles from "./Header.module.css";
@@ -39,15 +40,36 @@ const Header = ({ name, job }) => {
           </div>
 
           <div className={styles.introduce}>
-            <Text fontWeight="bold" textStyle="xl">
+            <Text
+              fontWeight="bold"
+              textStyle="xl"
+              display={"flex"}
+              gap={2}
+              alignItems={"center"}
+            >
+              <LuCircleDot />
               Software engineer with a product mindset, known for shipping
               reliable systems and elevating team standards.
             </Text>
-            <Text fontWeight="bold" textStyle="xl">
+            <Text
+              fontWeight="bold"
+              textStyle="xl"
+              display={"flex"}
+              gap={2}
+              alignItems={"center"}
+            >
+              <LuCircleDot />
               From system design to deployment and observability, I deliver
               maintainable solutions and communicate clearly with stakeholders.
             </Text>
-            <Text fontWeight="bold" textStyle="xl">
+            <Text
+              fontWeight="bold"
+              textStyle="xl"
+              display={"flex"}
+              gap={2}
+              alignItems={"center"}
+            >
+              <LuCircleDot />
               I’m energized by tough problems and teams that value speed with
               quality.
             </Text>

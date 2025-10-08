@@ -6,8 +6,8 @@ const Footer = () => {
       <VStack spacing={2}>
         <Text fontSize="sm">Developed by Gihoon Kim</Text>
         <Text fontSize="sm">
-          Contact:{" "}
-          <Link href="mailto:rlgnsrla512@gmail.com" color={"teal.300"}>
+          Contact:
+          <Link href="mailto:rlgnsrla512@gmail.com" color={"teal.300"} ml={1}>
             rlgnsrla512@gmail.com
           </Link>
         </Text>

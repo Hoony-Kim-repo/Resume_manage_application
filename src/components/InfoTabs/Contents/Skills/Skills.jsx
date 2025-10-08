@@ -19,8 +19,8 @@ const Skills = () => {
           </Text>
 
           <Flex gap={4} wrap={"wrap"} align="center" mt={2} flex={3}>
-            {skill.skills.map((item) => (
-              <WrapItem key={item.id}>
+            {skill.skills.map((item, idx) => (
+              <WrapItem key={idx}>
                 <Flex align="center" mr={2} mb={2}>
                   <Image
                     boxSize="40px"
