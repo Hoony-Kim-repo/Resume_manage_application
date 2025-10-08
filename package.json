@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Hoony-Kim-repo.github.io/Resume_manage_application",
+  "homepage": "https://Hoony-Kim-repo.github.io/Resume_manage_application/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
